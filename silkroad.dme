@@ -1,0 +1,45 @@
+// DM Environment file for silkroad.dme.
+// All manual changes should be made outside the BEGIN_ and END_ blocks.
+// New source code should be placed in .dm files: choose File/New --> Code File.
+
+// BEGIN_INTERNALS
+// END_INTERNALS
+
+// BEGIN_FILE_DIR
+#define FILE_DIR .
+#define FILE_DIR "icons"
+#define FILE_DIR "icons/mob"
+#define FILE_DIR "icons/objects"
+#define FILE_DIR "icons/turfs"
+#define FILE_DIR "sounds"
+// END_FILE_DIR
+
+// BEGIN_PREFERENCES
+#define DEBUG
+// END_PREFERENCES
+
+// BEGIN_INCLUDE
+#include "test.dmm"
+#include "code\adminverbs.dm"
+#include "code\fonts.dm"
+#include "code\setup.dm"
+#include "code\sounds.dm"
+#include "code\living\critter.dm"
+#include "code\living\damage.dm"
+#include "code\living\emotes.dm"
+#include "code\living\human.dm"
+#include "code\living\mob.dm"
+#include "code\living\roles.dm"
+#include "code\living\vampires.dm"
+#include "code\obj\areas.dm"
+#include "code\obj\books.dm"
+#include "code\obj\clothing.dm"
+#include "code\obj\decals.dm"
+#include "code\obj\food.dm"
+#include "code\obj\items.dm"
+#include "code\obj\machinery.dm"
+#include "code\obj\nutriment.dm"
+#include "code\obj\structure.dm"
+#include "code\obj\turfs.dm"
+// END_INCLUDE
+

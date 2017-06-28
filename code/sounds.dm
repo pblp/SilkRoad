@@ -1,0 +1,6 @@
+var/sound/vomitsound = sound('sounds/vomit.ogg')
+var/sound/ambushsound = sound('sounds/ambush.ogg')
+var/sound/callelders = sound('sounds/callelders1.wav')
+var/sound/ending = sound('sounds/ending.ogg')
+var/sound/drop = sound('sounds/drop_clothing.ogg')
+var/sound/discipline = sound('sounds/discipline.ogg')
